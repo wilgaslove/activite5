@@ -1,16 +1,35 @@
-# activite1
+# mon_projet
 
-A new Flutter project.
+Projet Flutter d'exemple pour l'activité de débogage.
 
-## Getting Started
+## Commandes utiles
 
-This project is a starting point for a Flutter application.
+- Récupérer les dépendances :
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Lancer l'application :
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter run
+```
+
+- Lancer les tests unitaires et widget :
+
+```
+flutter test
+```
+
+- Lancer les tests d'intégration :
+
+```
+flutter test integration_test
+```
+
+ou (selon version) :
+
+```
+flutter drive --driver=test_driver/integration_test_driver.dart --target=integration_test/app_test.dart
+```
