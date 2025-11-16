@@ -1,35 +1,24 @@
-# mon_projet
+# CareConnect - Flutter scaffold
 
-Projet Flutter d'exemple pour l'activité de débogage.
+Ce dépôt contient un scaffold minimal d'une application Flutter **CareConnect**.
+Il inclut:
+- Structure des modèles
+- Écrans principaux (placeholders)
+- Services Firebase (stubs)
+- README d'installation Firebase
 
-## Commandes utiles
+## Installation (local)
+1. Installer Flutter SDK.
+2. Copier ce projet dans un dossier.
+3. Ajouter les fichiers de configuration Firebase:
+   - `android/app/google-services.json`
+   - `ios/Runner/GoogleService-Info.plist`
+4. Exécuter:
+   ```
+   flutter pub get
+   flutter run
+   ```
 
-- Récupérer les dépendances :
-
-```
-flutter pub get
-```
-
-- Lancer l'application :
-
-```
-flutter run
-```
-
-- Lancer les tests unitaires et widget :
-
-```
-flutter test
-```
-
-- Lancer les tests d'intégration :
-
-```
-flutter test integration_test
-```
-
-ou (selon version) :
-
-```
-flutter drive --driver=test_driver/integration_test_driver.dart --target=integration_test/app_test.dart
-```
+## Notes
+- Ce scaffold ne contient pas les configurations Firebase réelles.
+- Complète `lib/services/firebase_service.dart` selon ton projet Firebase.
