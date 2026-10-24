@@ -7,10 +7,10 @@
    - `android/app/google-services.json`
    - `ios/Runner/GoogleService-Info.plist`
 4. Exécuter:
-   ```
+ 
    flutter pub get
    flutter run
-   ```
+
 
 ## Notes
 - Ce scaffold ne contient pas les configurations Firebase réelles.
